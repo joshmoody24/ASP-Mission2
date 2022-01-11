@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mission 2 Website</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+    <h1>Josh Moody</h1>
+    <img src="todo" />
+    <p>
+        In IS 413, I hope to learn as much as possible about ASP.NET and the MVC design pattern.
+    </p>
+    <h2>Top 3 Jobs I Want to Pursue After Graduation</h2>
+    <ol>
+        <li>Software Engineer</li>
+        <li>Project Management</li>
+        <li>Cybersecurity</li>
+    </ol>
+
+    <h2>Grade Calculator</h2>
+    <p>Enter grades as decimals (e.g. .87)</p>
+    <form>
+        <div class="form-group">
+            <label for="assignments">Assignments</label>
+            <input type="number" class="form-control" id="assignments" placeholder="Enter Percentage" />
+        </div>
+
+        <div class="form-group">
+            <label for="group-project">Group Project</label>
+            <input type="number" class="form-control" id="group-project" placeholder="Enter Percentage" />
+        </div>
+
+        <div class="form-group">
+            <label for="quizzes">Quizzes</label>
+            <input type="number" class="form-control" id="quizzes" placeholder="Enter Percentage" />
+        </div>
+
+        <div class="form-group">
+            <label for="exams">Exams</label>
+            <input type="number" class="form-control" id="exams" placeholder="Enter Percentage" />
+        </div>
+
+        <div class="form-group">
+            <label for="intex">INTEX</label>
+            <input type="number" class="form-control" id="intex" placeholder="Enter Percentage" />
+        </div>
+
+        <button id="calculate">Calculate</button>
+    </form>
+
+    <div class="result-container">Result: <span id="result"></span></div>
+    </div>
+
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/gradeCalculator.js"></script>
+
+</body>
+</html>
