@@ -1,2 +1,7 @@
-﻿body {
+﻿p {
+    max-width: 75ch;
+}
+
+body {
+    color: #333;
 }

@@ -9,16 +9,19 @@
 </head>
 <body>
     <div class="container">
-    <h1>Josh Moody</h1>
-    <img src="todo" />
+    <h1>Mission 2<br />(preferred name: Josh Moody)</h1>
+    <img src="img/thermic_lance.jpg" width="300" />
+    <h2>IS 413 Expecations</h2>
     <p>
         In IS 413, I hope to learn as much as possible about ASP.NET and the MVC design pattern.
+        I already have a lot of experience with web development but never these specific tools.
+        I don't even know what I don't know yet, so I don't have any more specific than that.
     </p>
     <h2>Top 3 Jobs I Want to Pursue After Graduation</h2>
     <ol>
         <li>Software Engineer</li>
         <li>Project Management</li>
-        <li>Cybersecurity</li>
+        <li>Something to do with cybersecurity</li>
     </ol>
 
     <h2>Grade Calculator</h2>
@@ -26,33 +29,35 @@
     <form>
         <div class="form-group">
             <label for="assignments">Assignments</label>
-            <input type="number" class="form-control" id="assignments" placeholder="Enter Percentage" />
+            <input class="form-control" id="assignments" placeholder="Enter Percentage (e.g. 0.74)" />
         </div>
 
         <div class="form-group">
             <label for="group-project">Group Project</label>
-            <input type="number" class="form-control" id="group-project" placeholder="Enter Percentage" />
+            <input class="form-control" id="group-project" placeholder="Enter Percentage (e.g. 0.74)" />
         </div>
 
         <div class="form-group">
             <label for="quizzes">Quizzes</label>
-            <input type="number" class="form-control" id="quizzes" placeholder="Enter Percentage" />
+            <input class="form-control" id="quizzes" placeholder="Enter Percentage (e.g. 0.74)" />
         </div>
 
         <div class="form-group">
             <label for="exams">Exams</label>
-            <input type="number" class="form-control" id="exams" placeholder="Enter Percentage" />
+            <input class="form-control" id="exams" placeholder="Enter Percentage (e.g. 0.74)" />
         </div>
 
         <div class="form-group">
             <label for="intex">INTEX</label>
-            <input type="number" class="form-control" id="intex" placeholder="Enter Percentage" />
+            <input class="form-control" id="intex" placeholder="Enter Percentage (e.g. 0.74)" />
         </div>
 
-        <button id="calculate">Calculate</button>
+        <button class="btn btn-primary mt-3" id="calculate">Calculate</button>
     </form>
 
-    <div class="result-container">Result: <span id="result"></span></div>
+    <h2 class="result-container">
+        Result: <span id="result"></span>
+    </h2>
     </div>
 
     <script src="lib/bootstrap/js/bootstrap.js"></script>
